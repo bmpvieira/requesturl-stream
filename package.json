@@ -1,0 +1,30 @@
+{
+  "name": "requesturl-stream",
+  "version": "1.0.0",
+  "description": "Tiny wrapper around request so we can pipe URLs Stream to it",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmpvieira/requesturl-stream.git"
+  },
+  "keywords": [
+    "request",
+    "streams"
+  ],
+  "author": "Bruno Vieira <mail@bmpvieira.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bmpvieira/requesturl-stream/issues"
+  },
+  "homepage": "https://github.com/bmpvieira/requesturl-stream#readme",
+  "dependencies": {
+    "request": "^2.81.0",
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {
+    "standard": "^10.0.1"
+  }
+}
